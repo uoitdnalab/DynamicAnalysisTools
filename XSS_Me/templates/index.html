@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>Vulnerable Blog Site</title>
+	</head>
+	<body>
+		<form action=’/upload_blogpost’ method=’post’>
+			<textarea name=’blog_text’>
+			</textarea>
+			<input type=’submit’ value=’Post!’/>
+		</form>
+		<h1>Most recent post</h1>
+		<p>
+			{{ blogpost_contents|safe }}
+		</p>
+	</body>
+</html>
+ 
