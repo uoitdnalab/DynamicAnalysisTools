@@ -1,2 +1,2 @@
 # DynamicAnalysisTools
-Contains code examples discussed in the paper: Empirical Evaluation of Dynamic Analysis Tools for Smart Grid Software Security, submitted to SCAM 2016.
+Contains code examples and test cases discussed in the paper: Evaluation of Dynamic Analysis Tools for Software Security, submitted to a journal and currently under review.
