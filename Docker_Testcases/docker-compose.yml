@@ -1,0 +1,15 @@
+version: '2'
+services:
+  owasp_benchmark:
+    build: ./benchmark
+    command: /benchmark/bench.sh
+    stdin_open: true
+    tty: true
+  
+  webtest_tools:
+    build: ./container__attack
+    links:
+      - owasp_benchmark
+    stdin_open: true
+    tty: true
+
