@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+This file implements a web server that is vulnerable to
+path traversal.
+"""
+
 import os
 
 #First set up web filesystem

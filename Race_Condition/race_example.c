@@ -1,3 +1,5 @@
+//This file demonstrates a race condition from failure to synchronize threads
+
 #include <stdio.h>
 #include <pthread.h>
 

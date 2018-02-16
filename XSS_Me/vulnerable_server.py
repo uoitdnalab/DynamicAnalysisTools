@@ -1,6 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+"""
+This file implements a web server that is vulnerable to
+Cross-site-scripting (XSS).
+"""
+
 from flask import Flask
 from flask import request
 from flask import render_template
